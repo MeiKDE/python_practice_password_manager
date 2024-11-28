@@ -172,7 +172,7 @@ def save():
         if is_ok:
             file_name = "data"
             with open(
-                f"python_practice_password_manager/{file_name}.txt",
+                f"{file_name}.txt",
                 mode="a",
             ) as transport_data:
                 transport_data.write(
